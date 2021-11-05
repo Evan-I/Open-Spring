@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="person-rest">
+    <output-path>$PROJECT_DIR$/out/artifacts/person_rest</output-path>
+    <root id="archive" name="person-rest.war">
+      <element id="javaee-facet-resources" facet="person-rest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="person-rest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/libs/commons-dbcp2-2.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/commons-pool2-2.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/jackson-core-2.12.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/jackson-databind-2.12.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-tx-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-aop-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-jcl-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-jms-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-orm-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-oxm-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-web-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-core-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-jdbc-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-test-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/jackson-annotations-2.12.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-beans-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/mysql-connector-java-8.0.23.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-webmvc-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-aspects-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-context-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-webflux-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-messaging-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-websocket-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-expression-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-instrument-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-context-indexer-5.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/spring-context-support-5.2.0.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
