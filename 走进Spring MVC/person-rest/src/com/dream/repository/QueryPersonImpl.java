@@ -18,16 +18,12 @@ public class QueryPersonImpl implements QueryPerson {
 
     @Override
     public List<QueryPersonOut> access() {
-        return this.jdbcTemplate.query(STATEMENT, resultSet -> {
-            var personList = new ArrayList<QueryPersonOut>();
-            if (resultSet.next()) {
-                var person = new QueryPersonOut();
-                person.setId(resultSet.getInt(1));
-                person.setName(resultSet.getString(2));
-                person.setGender(resultSet.getString(3));
-                personList.add(person);
-            }
-            return personList;
+        return this.jdbcTemplate.query(STATEMENT, (resultSet, i) ->{
+            var person = new QueryPersonOut();
+            person.setId(resultSet.getInt(1));
+            person.setName(resultSet.getString(2));
+            person.setGender(resultSet.getString(3));
+            return person;
         });
     }
 

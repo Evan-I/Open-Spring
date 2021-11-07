@@ -1,6 +1,6 @@
-CREATE DATABASE dream DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE sm_person_rest DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
 
-USE dream;
+USE sm_person_rest;
 
 CREATE TABLE person (
     person_id     INT         NOT NULL AUTO_INCREMENT, # 数据库表ID

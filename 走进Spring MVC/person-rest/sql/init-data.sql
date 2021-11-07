@@ -1,4 +1,4 @@
-USE dream;
+USE sm_person_rest;
 INSERT person(person_name, person_gender)
 VALUES ('曹操', '帅哥');
 INSERT person(person_name, person_gender)
