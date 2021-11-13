@@ -1,0 +1,121 @@
+@charset "UTF-8";
+body {
+    position:relative;
+}
+#logon-box {
+    float:left;
+    width:354px;
+    height:399px;
+    margin:60px;
+    border-bottom:9px solid #3b5999;
+    background-color:#e9ebee;
+}
+#logon-body-box {
+    width:auto;
+    height:258px;
+    padding:18px 18px 0px;
+}
+#logon-button {
+    width:100%;
+}
+#logon-foot-box {
+    width:auto;
+    height:20px;
+    padding:16px 18px;
+    font-size:14px;
+    line-height:20px;
+}
+#logon-foot-box label {
+    float:left;
+    cursor:pointer;
+}
+#logon-foot-box input {
+    width:auto;
+    height:20px;
+    border-width:0px;
+    font-size:14px;
+    line-height:20px;
+    background-color:transparent;
+    color:#3b5999;
+    cursor:pointer;
+}
+#logon-foot-box input:hover {
+    color:#699857;
+}
+#logon-registry-button {
+    float:left;
+}
+#registry-box {
+    display:none;
+}
+#registry-workbench-box {
+    top:142px;
+    left:50%;
+    width:354px;
+    height:380px;
+    margin-left:-177px;
+}
+#registry-body-box {
+    width:auto;
+    height:290px;
+    padding:18px 18px 0px;
+}
+#registry-ok-button {
+    float:right;
+    width:254px;
+}
+#registry-cancel-button {
+    float:left;
+    width:58px;
+}
+.-title-box {
+    width:auto;
+    height:72px;
+    padding:0px 18px;
+    font-size:36px;
+    line-height:72px;
+    background-color:#3b5999;
+    color:white;
+}
+.-title-box h1 {
+    font-weight:normal;
+}
+.-input-item {
+    position:relative;
+    width:auto;
+    height:38px;
+    margin-bottom:18px;
+    border:1px solid #888888;
+    background-color:white;
+}
+.-input-item label {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:auto;
+    height:38px;
+    padding:0px 9px;
+    font-size:14px;
+    line-height:38px;
+    color:#888888;
+    z-index:100;
+}
+.-input-item input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:298px;
+    height:38px;
+    padding:0px 9px;
+    border-width:0px;
+    font-size:14px;
+    line-height:18px;
+    background-color:transparent;
+    color:#333333;
+    z-index:110;
+}
+.-button-item {
+    position:relative;
+    width:auto;
+    height:40px;
+}
