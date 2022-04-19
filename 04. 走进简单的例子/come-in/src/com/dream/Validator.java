@@ -7,16 +7,6 @@ public final class Validator {
 
     private Validator() {}
 
-    public static boolean validatePersonName(String value) {
-        if (value == null) {
-            return false;
-        }
-        if (value.length() > 12) {
-            return false;
-        }
-        return true;
-    }
-
     public static boolean validatePersonPhone(String value) {
         if (value == null) {
             return false;

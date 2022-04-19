@@ -18,56 +18,6 @@ body {
 #logon-button {
     width:100%;
 }
-#logon-foot-box {
-    width:auto;
-    height:20px;
-    padding:16px 18px;
-    font-size:14px;
-    line-height:20px;
-}
-#logon-foot-box label {
-    float:left;
-    cursor:pointer;
-}
-#logon-foot-box input {
-    width:auto;
-    height:20px;
-    border-width:0px;
-    font-size:14px;
-    line-height:20px;
-    background-color:transparent;
-    color:#3b5999;
-    cursor:pointer;
-}
-#logon-foot-box input:hover {
-    color:#699857;
-}
-#logon-registry-button {
-    float:left;
-}
-#registry-box {
-    display:none;
-}
-#registry-workbench-box {
-    top:142px;
-    left:50%;
-    width:354px;
-    height:380px;
-    margin-left:-177px;
-}
-#registry-body-box {
-    width:auto;
-    height:290px;
-    padding:18px 18px 0px;
-}
-#registry-ok-button {
-    float:right;
-    width:254px;
-}
-#registry-cancel-button {
-    float:left;
-    width:58px;
-}
 .-title-box {
     width:auto;
     height:72px;

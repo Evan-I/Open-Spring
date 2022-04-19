@@ -3,8 +3,7 @@ package com.dream;
 public enum ErrorCode {
     SUCCESS(0),
     ERROR_FATAL(1),
-    ERROR_DUPLICATE(2),
-    ERROR_CREDENTIAL(3);
+    ERROR_CREDENTIAL(2);
 
     private final int value;
 
